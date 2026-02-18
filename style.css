@@ -7,20 +7,25 @@ body {
 }
 
 nav {
-    background: rgba(0, 0, 0, 0.8);
-    padding: 15px;
+    background: #111;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a {
     color: white;
-    margin: 15px;
     text-decoration: none;
+    margin: 0 20px;
     font-weight: bold;
     transition: 0.3s;
 }
 
 nav a:hover {
-    color: yellow;
+    color: #00ffcc;
+}
+
 }
 
 h1 {
